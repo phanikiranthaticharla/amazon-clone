@@ -8,8 +8,48 @@
     background: url('https://ik.imagekit.io/cbh8zu7mn/sprite_350x.png?ik-sdk-version=javascript-1.4.3&updatedAt=1675222926455') no-repeat -9px -50px;
 	width: 98px;
 	height: 31px;
+    margin: 18px;
+}
+.navbar__locator {
+    display:flex;
+    margin: 20px 0px;
 }
 .navbar__location {
     color: white;
     font-weight: bold;   
+    margin-left: 5px;
+}
+.navbar__locatorImage {
+    background: url('https://ik.imagekit.io/cbh8zu7mn/sprite_350x.png?ik-sdk-version=javascript-1.4.3&updatedAt=1675222926455') no-repeat -70px -378px;
+	width: 16px;
+	height: 18px;
+}
+.navbar__searchbox {
+    width: 640px;
+    margin-top: 8px;
+    height: 38px;
+}
+.navbar__searchicon {
+    background: url('https://ik.imagekit.io/cbh8zu7mn/sprite_350x.png?ik-sdk-version=javascript-1.4.3&updatedAt=1675222926455') no-repeat -9px -289px;
+	width: 23px;
+	height: 23px;
+    margin: 12px;
+}
+.navbar__searchcomponent{
+    display: flex;
+}
+.navbar__searchboxdiv {
+    background-color: #FEBE68; 
+    height: 44px;
+    width: 48px;
+    border-radius: 0px 5px 5px 0px;
+    margin-top: 8px; 
+}
+.navbar__dropdown {
+    width: 60px;
+    height: 44px;
+    margin-top: 8px;
+    background-color: #e6e5e5;
+    border-radius: 5px 0px 0px 5px;
+    text-align-last: center; 
 }
