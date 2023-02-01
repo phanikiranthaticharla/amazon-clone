@@ -1,0 +1,15 @@
+.navbar__component {
+     width: 100vw;
+     height: 60px;
+     background-color: #131A22;
+     display: flex
+}
+.navbar__logo {
+    background: url('https://ik.imagekit.io/cbh8zu7mn/sprite_350x.png?ik-sdk-version=javascript-1.4.3&updatedAt=1675222926455') no-repeat -9px -50px;
+	width: 98px;
+	height: 31px;
+}
+.navbar__location {
+    color: white;
+    font-weight: bold;   
+}
