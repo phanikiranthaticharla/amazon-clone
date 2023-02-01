@@ -9,31 +9,52 @@ class NavBar extends Component {
     
     render() { 
         return ( 
-        <div className="navbar__component">
-            <div className="navbar__logo"></div>
-            <div className='navbar__locator'>
+        <div>
+            <div className="navbar__component">
+                <div className="navbar__logo"></div>
+                <div className='navbar__locator'>
                 <div className="navbar__locatorImage"></div>
-                <div className='navbar__location'>US</div>
-            </div>
-            <div className="navbar__searchcomponent">
-                <div className="navbar__dropdown">
-                    <select>
-                        <option value="">All</option>
-                        <option value="">Alexa</option>
-                        <option value="">Baby</option>
-                        <option value="">Beauty</option>
-                        <option value="">Books</option>
-                        <option value="">Clothes</option>
-                    </select>
+                <div className="navbar__hello">
+                    <div className="navbar__hello_text">Hello</div>
+                    <div className='navbar__location'>Select your address</div>
                 </div>
-                <div>
-                    <input type="text" className="navbar__searchbox" />
                 </div>
-                <div className="navbar__searchboxdiv">
+                <div className="navbar__searchcomponent">
+                    <div class="navbar__selector">
+                        <select className="navbar__dropdown">
+                            <option value="All">All</option>
+                            <option value="Alexa">Alexa</option>
+                            <option value="Baby">Baby</option>
+                            <option value="Beauty">Beauty</option>
+                            <option value="Books">Books</option>
+                            <option value="Clothes">Clothes</option>
+                        </select>
+                    </div>
+                    <div>
+                        <input type="text" className="navbar__searchbox" />
+                    </div>
+                    <div className="navbar__searchboxdiv">
                     <div className="navbar__searchicon"></div>
+                    </div>
                 </div>
+                <div className="navbar__text navbar__signin">
+                    <div style={{ fontsize: "14px" }}>Hello, Sign In</div>
+                    <div style={{ fontWeight: 'bold'}}>
+                        Accounts & Lists
+                    </div>
+                </div>
+                <div className="navbar__text navbar__returns">
+                    <div style={{ fontsize: "14px" }}>Returns</div>
+                    <div style={{ fontWeight: 'bold' }}>& Orders</div>
+                </div>
+                <div className="navbar__text navbar__cart">
+                    <div src="" className="cart__image"  alt="img"></div>
+                    <div className="cart__number_items">0</div>
+                    <div className="navbar__text_cart">Cart</div>
+                </div>        
             </div>
-        </div> );
+            <div className="navigation__footer">Navigation Footer</div>                
+        </div>);
     }
 }
  
