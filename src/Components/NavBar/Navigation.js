@@ -53,7 +53,19 @@ class NavBar extends Component {
                     <div className="navbar__text_cart">Cart</div>
                 </div>        
             </div>
-            <div className="navigation__footer">Navigation Footer</div>                
+            <div className="navigation__footer">
+                <div className="navbar__footer_text">Clinic</div>
+                <div className="navbar__footer_text">Amazon Basics</div>
+                <div className="navbar__footer_text">Prime</div>
+                <div className="navbar__footer_text">Pet Supplies</div>
+                <div className="navbar__footer_text">Beauty & Personal Care</div>
+                <div className="navbar__footer_text">Amazon Home</div>
+                <div className="navbar__footer_text">Coupons</div>
+                <div className="navbar__footer_text">Health & Household</div>
+                <div className="navbar__footer_text">Find a Gift</div>
+                <div className="navbar__footer_text">#FoundItOnAmazon</div>
+                <div className="navbar__footer_text">Celebrate Black History Month</div>               
+            </div>                
         </div>);
     }
 }

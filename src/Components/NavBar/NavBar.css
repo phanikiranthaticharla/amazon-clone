@@ -98,5 +98,13 @@
     width: 100vw;
     height: 30px;
     background-color: #131A22;
-    color: white
+    color: white;
+    display: flex;
+
+}
+
+.navbar__footer_text {
+    margin: 5px 10px; 
+    font-size: 14px;
+    font-weight: bold;
 }

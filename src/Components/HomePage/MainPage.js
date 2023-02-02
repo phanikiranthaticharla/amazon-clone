@@ -1,4 +1,6 @@
 import React, { Component } from 'react';
+import AdvertisementOne from './AdvertisementOne/AdvertisementOne';
+import "./MainPage.css"
 
 class MainPage extends Component {
     constructor(props) {
@@ -8,8 +10,10 @@ class MainPage extends Component {
 
     render() { 
         return ( 
-            <div>
-                Main Page
+            <div className="mainpage">
+                <div>
+                    <AdvertisementOne/>
+                </div>
             </div>
          );
     }
