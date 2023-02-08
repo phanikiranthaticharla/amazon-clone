@@ -4,3 +4,8 @@
     background: url('https://ik.imagekit.io/cbh8zu7mn/71YW8Qp34SL._SX3000_.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1675299917834');
     background-size: 150vw;
 }
+.mainpage__advertisement_one {
+    padding-top: 250px;
+    padding-left: 20px;
+    display: flex; 
+}
